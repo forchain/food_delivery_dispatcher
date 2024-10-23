@@ -20,7 +20,12 @@ def dispatch():
             where id_fleet = :id_fleet
             ''', id_fleet=active_fleet.id_fleet).dicts()
             print(f"assigning {len(orders)} orders to {len(delivery_drivers)} drivers for fleet {active_fleet.fleet_code}")
-            distance_matrix = get_distance_matrix(delivery_drivers, orders)
+            distance_matrix = []
+            for delivery_driver in delivery_drivers:
+                row = []
+                for order in orders:
+                    row.append(util.geo_distance(delivery_driver['latitude'], delivery_driver['longitude'], order['restaurant_latitude'], order['restaurant_longitude']))
+                distance_matrix.append(row)
             dispatch_result = dispatcher.dispatch_orders_to_delivery_drivers(delivery_drivers, orders, distance_matrix)
             for id_food_order, id_delivery_driver in dispatch_result.items():
                 sql(dbutil.engine, '''
@@ -33,11 +38,3 @@ def dispatch():
         print('dispatcher sleeping...')
         time.sleep(15)
 
-def get_distance_matrix(delivery_drivers, orders):
-    distance_matrix = []
-    for delivery_driver in delivery_drivers:
-        row = []
-        for order in orders:
-            row.append(util.geo_distance(delivery_driver['latitude'], delivery_driver['longitude'], order['restaurant_latitude'], order['restaurant_longitude']))
-        distance_matrix.append(row)
-    return distance_matrix
