@@ -8,7 +8,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<=3.12"
+python = ">=3.10,<4"
 sqlalchemy = "1.4.43"
 jsql = "0.7"
 jinja2 = "2.11.2"
