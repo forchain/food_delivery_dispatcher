@@ -1,6 +1,10 @@
 from . import util
 
 def dispatch_orders_to_delivery_drivers(delivery_drivers, orders, distance_matrix):
+    '''
+    assign drivers to orders in a FIFO manner. Will assign the closest driver to the earliest 
+    created order and so on.
+    '''
     orders.sort(key=lambda x: x['placed_at'])
     result = dict()
     used = set()

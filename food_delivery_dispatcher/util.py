@@ -1,6 +1,7 @@
 from math import sin, cos, sqrt, atan2, radians
 
 def geo_distance(lat1, lon1, lat2, lon2):
+    ''' haversine distance between two latitude longitude geo location '''
 
     # approximate radius of earth in m
     R = 6373.0 * 1000

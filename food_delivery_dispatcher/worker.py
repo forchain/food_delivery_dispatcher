@@ -6,9 +6,16 @@ from . import dbutil
 from jsql import sql
 import logging
 
+logger = logging.getLogger(__name__)
+
 def dispatch():
+    ''' 
+    Dispatch worker.
+    It will keep running every 15 seconds and try to assign orders to every fleet.
+    '''
     while True:
-        print('dispatcher running...')
+        # NOTE: this code was originally written using multi-threading, but changed to for-loop for simplicity
+        logger.info('dispatcher running...')
         for active_fleet in fleet.get_all_fleets():
             delivery_drivers = sql(dbutil.engine, '''
             select * from delivery_driver dd
@@ -19,7 +26,7 @@ def dispatch():
             select * from food_order 
             where id_fleet = :id_fleet
             ''', id_fleet=active_fleet.id_fleet).dicts()
-            print(f"assigning {len(orders)} orders to {len(delivery_drivers)} drivers for fleet {active_fleet.fleet_code}")
+            logger.info(f"assigning {len(orders)} orders to {len(delivery_drivers)} drivers for fleet {active_fleet.fleet_code}")
             distance_matrix = []
             for delivery_driver in delivery_drivers:
                 row = []
@@ -35,6 +42,6 @@ def dispatch():
                     :id_food_order, :id_delivery_driver
                 )
                 ''', id_food_order=id_food_order, id_delivery_driver=id_delivery_driver)
-        print('dispatcher sleeping...')
+        logger.info('dispatcher sleeping...')
         time.sleep(15)
 

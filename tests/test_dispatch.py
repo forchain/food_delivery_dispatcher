@@ -3,6 +3,7 @@ from food_delivery_dispatcher import util
 import food_delivery_dispatcher.dispatcher
 
 def test_dispatch_orders_to_delivery_drivers1():
+    ''' test dispatching 1 order to 1 driver '''
     delivery_drivers = [{
         'id_delivery_driver': 1,
         'latitude': 2,
@@ -26,6 +27,7 @@ def test_dispatch_orders_to_delivery_drivers1():
     assert result[1] == 1
 
 def test_dispatch_orders_to_delivery_drivers2():
+    ''' test dispatching 1 order to 2 drivers '''
     delivery_drivers = [{
         'id_delivery_driver': 1,
         'latitude': 2,
@@ -52,5 +54,3 @@ def test_dispatch_orders_to_delivery_drivers2():
     assert len(result) == 1
     assert result[1] == 2
 
-def get_distance_matrix(delivery_drivers, orders):
-    return distance_matrix
