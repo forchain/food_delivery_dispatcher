@@ -1,0 +1,502 @@
+  [
+    {
+      "id_delivery_driver": 1,
+      "latitude": 40.764892,
+      "longitude": 102.423053
+    },
+    {
+      "id_delivery_driver": 2,
+      "latitude": 38.422062,
+      "longitude": 110.888791
+    },
+    {
+      "id_delivery_driver": 3,
+      "latitude": 34.43788,
+      "longitude": 110.446658
+    },
+    {
+      "id_delivery_driver": 4,
+      "latitude": 35.612516,
+      "longitude": 110.308752
+    },
+    {
+      "id_delivery_driver": 5,
+      "latitude": 35.454415,
+      "longitude": 109.085096
+    },
+    {
+      "id_delivery_driver": 6,
+      "latitude": 37.483235,
+      "longitude": 101.11482
+    },
+    {
+      "id_delivery_driver": 7,
+      "latitude": 37.9684,
+      "longitude": 107.803358
+    },
+    {
+      "id_delivery_driver": 8,
+      "latitude": 38.248538,
+      "longitude": 104.714487
+    },
+    {
+      "id_delivery_driver": 9,
+      "latitude": 35.771644,
+      "longitude": 103.349325
+    },
+    {
+      "id_delivery_driver": 10,
+      "latitude": 43.619333,
+      "longitude": 103.474395
+    },
+    {
+      "id_delivery_driver": 11,
+      "latitude": 40.671611,
+      "longitude": 104.962463
+    },
+    {
+      "id_delivery_driver": 12,
+      "latitude": 34.577919,
+      "longitude": 109.482875
+    },
+    {
+      "id_delivery_driver": 13,
+      "latitude": 38.13472,
+      "longitude": 101.140566
+    },
+    {
+      "id_delivery_driver": 14,
+      "latitude": 42.369184,
+      "longitude": 101.417449
+    },
+    {
+      "id_delivery_driver": 15,
+      "latitude": 40.988208,
+      "longitude": 104.179837
+    },
+    {
+      "id_delivery_driver": 16,
+      "latitude": 34.524289,
+      "longitude": 103.880986
+    },
+    {
+      "id_delivery_driver": 17,
+      "latitude": 41.489389,
+      "longitude": 102.819677
+    },
+    {
+      "id_delivery_driver": 18,
+      "latitude": 43.88346,
+      "longitude": 103.309268
+    },
+    {
+      "id_delivery_driver": 19,
+      "latitude": 35.893699,
+      "longitude": 108.579773
+    },
+    {
+      "id_delivery_driver": 20,
+      "latitude": 35.528016,
+      "longitude": 104.001595
+    },
+    {
+      "id_delivery_driver": 21,
+      "latitude": 37.051032,
+      "longitude": 108.176618
+    },
+    {
+      "id_delivery_driver": 22,
+      "latitude": 42.998364,
+      "longitude": 106.761576
+    },
+    {
+      "id_delivery_driver": 23,
+      "latitude": 38.566585,
+      "longitude": 107.043223
+    },
+    {
+      "id_delivery_driver": 24,
+      "latitude": 35.884413,
+      "longitude": 100.163385
+    },
+    {
+      "id_delivery_driver": 25,
+      "latitude": 39.36057,
+      "longitude": 107.90639
+    },
+    {
+      "id_delivery_driver": 26,
+      "latitude": 38.096427,
+      "longitude": 105.87005
+    },
+    {
+      "id_delivery_driver": 27,
+      "latitude": 35.66625,
+      "longitude": 103.266271
+    },
+    {
+      "id_delivery_driver": 28,
+      "latitude": 43.93554,
+      "longitude": 104.445022
+    },
+    {
+      "id_delivery_driver": 29,
+      "latitude": 36.949677,
+      "longitude": 101.564233
+    },
+    {
+      "id_delivery_driver": 30,
+      "latitude": 40.721964,
+      "longitude": 107.848077
+    },
+    {
+      "id_delivery_driver": 31,
+      "latitude": 41.197438,
+      "longitude": 99.903126
+    },
+    {
+      "id_delivery_driver": 32,
+      "latitude": 36.274967,
+      "longitude": 105.486054
+    },
+    {
+      "id_delivery_driver": 33,
+      "latitude": 41.95237,
+      "longitude": 109.693393
+    },
+    {
+      "id_delivery_driver": 34,
+      "latitude": 44.394543,
+      "longitude": 100.521204
+    },
+    {
+      "id_delivery_driver": 35,
+      "latitude": 40.369482,
+      "longitude": 110.682044
+    },
+    {
+      "id_delivery_driver": 36,
+      "latitude": 40.258409,
+      "longitude": 103.103863
+    },
+    {
+      "id_delivery_driver": 37,
+      "latitude": 38.277528,
+      "longitude": 109.581569
+    },
+    {
+      "id_delivery_driver": 38,
+      "latitude": 34.335617,
+      "longitude": 107.932617
+    },
+    {
+      "id_delivery_driver": 39,
+      "latitude": 37.102776,
+      "longitude": 102.017894
+    },
+    {
+      "id_delivery_driver": 40,
+      "latitude": 38.504587,
+      "longitude": 110.95106
+    },
+    {
+      "id_delivery_driver": 41,
+      "latitude": 41.969,
+      "longitude": 109.536089
+    },
+    {
+      "id_delivery_driver": 42,
+      "latitude": 34.595812,
+      "longitude": 110.768026
+    },
+    {
+      "id_delivery_driver": 43,
+      "latitude": 34.349751,
+      "longitude": 110.056773
+    },
+    {
+      "id_delivery_driver": 44,
+      "latitude": 42.007294,
+      "longitude": 101.756494
+    },
+    {
+      "id_delivery_driver": 45,
+      "latitude": 38.166929,
+      "longitude": 109.366741
+    },
+    {
+      "id_delivery_driver": 46,
+      "latitude": 42.878238,
+      "longitude": 105.74464
+    },
+    {
+      "id_delivery_driver": 47,
+      "latitude": 35.362507,
+      "longitude": 108.470852
+    },
+    {
+      "id_delivery_driver": 48,
+      "latitude": 39.816166,
+      "longitude": 103.384279
+    },
+    {
+      "id_delivery_driver": 49,
+      "latitude": 38.218631,
+      "longitude": 108.041759
+    },
+    {
+      "id_delivery_driver": 50,
+      "latitude": 38.297989,
+      "longitude": 102.057276
+    },
+    {
+      "id_delivery_driver": 51,
+      "latitude": 42.053202,
+      "longitude": 107.222648
+    },
+    {
+      "id_delivery_driver": 52,
+      "latitude": 37.322239,
+      "longitude": 101.890908
+    },
+    {
+      "id_delivery_driver": 53,
+      "latitude": 34.771992,
+      "longitude": 102.831971
+    },
+    {
+      "id_delivery_driver": 54,
+      "latitude": 34.38233,
+      "longitude": 109.285832
+    },
+    {
+      "id_delivery_driver": 55,
+      "latitude": 44.211875,
+      "longitude": 105.516084
+    },
+    {
+      "id_delivery_driver": 56,
+      "latitude": 43.516377,
+      "longitude": 106.390973
+    },
+    {
+      "id_delivery_driver": 57,
+      "latitude": 43.788526,
+      "longitude": 100.493077
+    },
+    {
+      "id_delivery_driver": 58,
+      "latitude": 37.610392,
+      "longitude": 106.617
+    },
+    {
+      "id_delivery_driver": 59,
+      "latitude": 39.454567,
+      "longitude": 103.425815
+    },
+    {
+      "id_delivery_driver": 60,
+      "latitude": 39.366702,
+      "longitude": 102.28578
+    },
+    {
+      "id_delivery_driver": 61,
+      "latitude": 44.219569,
+      "longitude": 105.214018
+    },
+    {
+      "id_delivery_driver": 62,
+      "latitude": 37.107239,
+      "longitude": 102.395086
+    },
+    {
+      "id_delivery_driver": 63,
+      "latitude": 37.788927,
+      "longitude": 105.182152
+    },
+    {
+      "id_delivery_driver": 64,
+      "latitude": 34.276311,
+      "longitude": 106.579723
+    },
+    {
+      "id_delivery_driver": 65,
+      "latitude": 35.86001,
+      "longitude": 107.965159
+    },
+    {
+      "id_delivery_driver": 66,
+      "latitude": 36.495412,
+      "longitude": 100.801327
+    },
+    {
+      "id_delivery_driver": 67,
+      "latitude": 36.275502,
+      "longitude": 108.27665
+    },
+    {
+      "id_delivery_driver": 68,
+      "latitude": 34.706233,
+      "longitude": 109.271149
+    },
+    {
+      "id_delivery_driver": 69,
+      "latitude": 42.65813,
+      "longitude": 101.220265
+    },
+    {
+      "id_delivery_driver": 70,
+      "latitude": 42.196837,
+      "longitude": 106.222004
+    },
+    {
+      "id_delivery_driver": 71,
+      "latitude": 40.203782,
+      "longitude": 106.988635
+    },
+    {
+      "id_delivery_driver": 72,
+      "latitude": 37.020633,
+      "longitude": 106.478633
+    },
+    {
+      "id_delivery_driver": 73,
+      "latitude": 43.346538,
+      "longitude": 109.017976
+    },
+    {
+      "id_delivery_driver": 74,
+      "latitude": 41.453801,
+      "longitude": 107.681075
+    },
+    {
+      "id_delivery_driver": 75,
+      "latitude": 37.049447,
+      "longitude": 108.122654
+    },
+    {
+      "id_delivery_driver": 76,
+      "latitude": 36.824758,
+      "longitude": 106.869661
+    },
+    {
+      "id_delivery_driver": 77,
+      "latitude": 38.873555,
+      "longitude": 102.48284
+    },
+    {
+      "id_delivery_driver": 78,
+      "latitude": 41.157588,
+      "longitude": 108.249675
+    },
+    {
+      "id_delivery_driver": 79,
+      "latitude": 43.537095,
+      "longitude": 101.687399
+    },
+    {
+      "id_delivery_driver": 80,
+      "latitude": 37.0195,
+      "longitude": 107.863753
+    },
+    {
+      "id_delivery_driver": 81,
+      "latitude": 34.846035,
+      "longitude": 108.49746
+    },
+    {
+      "id_delivery_driver": 82,
+      "latitude": 41.807768,
+      "longitude": 108.276925
+    },
+    {
+      "id_delivery_driver": 83,
+      "latitude": 43.293001,
+      "longitude": 104.205178
+    },
+    {
+      "id_delivery_driver": 84,
+      "latitude": 34.487376,
+      "longitude": 110.796628
+    },
+    {
+      "id_delivery_driver": 85,
+      "latitude": 41.178885,
+      "longitude": 110.730636
+    },
+    {
+      "id_delivery_driver": 86,
+      "latitude": 35.878801,
+      "longitude": 107.835331
+    },
+    {
+      "id_delivery_driver": 87,
+      "latitude": 35.195674,
+      "longitude": 105.741218
+    },
+    {
+      "id_delivery_driver": 88,
+      "latitude": 33.375795,
+      "longitude": 100.290865
+    },
+    {
+      "id_delivery_driver": 89,
+      "latitude": 33.815306,
+      "longitude": 107.148905
+    },
+    {
+      "id_delivery_driver": 90,
+      "latitude": 33.376589,
+      "longitude": 108.83008
+    },
+    {
+      "id_delivery_driver": 91,
+      "latitude": 41.891034,
+      "longitude": 103.353432
+    },
+    {
+      "id_delivery_driver": 92,
+      "latitude": 37.439178,
+      "longitude": 104.838526
+    },
+    {
+      "id_delivery_driver": 93,
+      "latitude": 42.546894,
+      "longitude": 107.460186
+    },
+    {
+      "id_delivery_driver": 94,
+      "latitude": 34.504865,
+      "longitude": 106.355915
+    },
+    {
+      "id_delivery_driver": 95,
+      "latitude": 38.33686,
+      "longitude": 100.893396
+    },
+    {
+      "id_delivery_driver": 96,
+      "latitude": 41.714646,
+      "longitude": 100.452703
+    },
+    {
+      "id_delivery_driver": 97,
+      "latitude": 39.859638,
+      "longitude": 107.473001
+    },
+    {
+      "id_delivery_driver": 98,
+      "latitude": 33.60709,
+      "longitude": 107.661906
+    },
+    {
+      "id_delivery_driver": 99,
+      "latitude": 42.498546,
+      "longitude": 110.231113
+    },
+    {
+      "id_delivery_driver": 100,
+      "latitude": 34.82278,
+      "longitude": 109.071779
+    }
+  ]
